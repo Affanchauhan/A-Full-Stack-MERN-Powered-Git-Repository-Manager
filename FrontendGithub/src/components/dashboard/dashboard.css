@@ -1,0 +1,82 @@
+/* Main Dashboard Container */
+#dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  gap: 40px; /* Increased from 20px to 40px */
+  max-width: 1400px; /* Increased from 1080px to accommodate larger gaps */
+  margin: 40px auto;
+  padding: 0 40px; /* Increased from 20px */
+  color: #c9d1d9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left & Right Aside Panels */
+#dashboard aside {
+  background-color: #161b22;
+  padding: 25px; /* Increased from 20px */
+  border: 1px solid #30363d;
+  border-radius: 8px; /* Slightly increased */
+  height: fit-content;
+  margin: 10px 0; /* Added vertical margin */
+}
+
+/* Main Section */
+#dashboard main {
+  background-color: #0d1117;
+  padding: 25px; /* Increased from 20px */
+  border: 1px solid #30363d;
+  border-radius: 8px; /* Slightly increased */
+  margin: 10px 0; /* Added vertical margin */
+}
+
+/* Rest of your existing styles remain the same */
+#dashboard aside h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 6px;
+}
+
+#dashboard aside div {
+  margin-bottom: 15px;
+}
+
+#dashboard aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#dashboard aside li {
+  margin-bottom: 8px;
+}
+
+#dashboard main h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#search {
+  margin-bottom: 20px;
+}
+
+#search input {
+  width: 100%;
+  padding: 10px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #f0f6fc;
+}
+
+#dashboard main div {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 8px;
+}
+
+h4 {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
